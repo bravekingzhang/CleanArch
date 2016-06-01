@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/clear_db"
+          android:orderInCategory="100"
+          android:title="清除缓存"
+          app:showAsAction="never"/>
+    <item android:id="@+id/reload_data"
+          android:orderInCategory="100"
+          android:title="重新加载数据"
+          app:showAsAction="never"
+    />
+</menu>
