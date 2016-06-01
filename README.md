@@ -1,3 +1,8 @@
+# overview
+
+如果图片看不到，可能是因为防盗链了，请直接看这里 http://www.jianshu.com/p/cba6663435c7
+
+
 最近 ***Android-CleanArchitecture*** 闹得是沸沸扬扬，然而笔者也不甘寂寞，一直在研究这个东西，看过，不少的实现。
 
 比如 android10  大神的实现 https://github.com/android10/Android-CleanArchitecture
