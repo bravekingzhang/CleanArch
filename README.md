@@ -2,6 +2,14 @@
 
 如果图片看不到，可能是因为防盗链了，请直接看这里 http://www.jianshu.com/p/cba6663435c7
 
+# 特性
+简单的实现了一下Android-Clean-Architecture，使用到了一些比较优秀的库
+####realm 目前最流弊的移动端db
+####rxjava 一切都是流，你懂得
+####butterknife 视图注入框架
+####glide 图片加载框架
+####retrofit 网络请求框架，可以与rxjava搭配
+# 原理
 
 最近 ***Android-CleanArchitecture*** 闹得是沸沸扬扬，然而笔者也不甘寂寞，一直在研究这个东西，看过，不少的实现。
 
@@ -50,4 +58,8 @@ Boilerplate 其实就是 模板的意思了，相信大家也看过不少这个�
 分析了每层之后，我们发现，依赖的关系是 **PresentationLayer** --> **DomainLayer**  --> **DataLayer** 的。
 **DomainLayer**  --> **DataLayer** 不知道有android平台的存在。
 因此，只要我们围绕这个原则去做架构，那么就称的上是Android-CleanArchitecture。
+
+
+#todo
+dagger2依赖注入，随便比较难理解吧，但是用上之后，显然要大幅降低耦合。
 
