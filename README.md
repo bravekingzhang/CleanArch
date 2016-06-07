@@ -1,6 +1,7 @@
 # overview
 
 如果图片看不到，可能是因为防盗链了，请直接看这里 http://www.jianshu.com/p/cba6663435c7
+也可以在这里提出你的疑问，多谢
 
 # 特性
 简单的实现了一下Android-Clean-Architecture，使用到了一些比较优秀的库
